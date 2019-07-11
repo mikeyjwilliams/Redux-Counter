@@ -21,7 +21,10 @@ export default (state = initialState, action) => {
 
     case DECREMENT:
       // Fill in the body of this case
-      break;
+      const minusCount = state.count - 1;
+      return {
+        count: minusCount
+      };
     default:
       return state;
   }
