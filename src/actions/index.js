@@ -10,21 +10,13 @@ export const DECREMENT = 'DECREMENT';
 // is left to the reducer(s).
 
 export const increment = count => {
-  // Fill in this function
   return {
-    type: INCREMENT,
-    payload: {
-      count
-    }
+    type: INCREMENT
   };
 };
 
 export const decrement = count => {
-  // Fill in this function
   return {
-    type: DECREMENT,
-    payload: {
-      count
-    }
+    type: DECREMENT
   };
 };
